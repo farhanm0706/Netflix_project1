@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+    background-color: rgb(41, 38, 38);
+}
+
+#page1{
+background-image: url(  "https://images.unsplash.com/photo-1606937295547-bc0f668595b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5ldGZsaXh8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" );
+background-repeat: no-repeat;
+height: 800px;
+position: relative;
+background-size: cover;
+
+}
+#l1{
+    color:red;
+    width: 50px;
+    padding: 20px;
+    
+}
+
+#language1{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    
+    
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 1150px;
+}
+option{
+    background-color: silver;
+}
+
+
+#sign_in{
+    color: white;
+    background-color: red;
+    width: 130px;
+    height: 30px;
+    border-radius: 4px;
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+}
+.para1,.para4,.para6,.para8,.para10,h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    fo
+
+}
+.para2 ,.para5,.para3,.para3_first,.para7,.para9,.para11,.para12{
+    color: white;
+    font-size: 20px;
+   font-weight:bolder;
+}
+.para2{
+    position: relative;
+    left: 50px;
+}
+.para3_first{
+    margin-left: 30%;
+}
+   #page1_body{
+    background-color: black;
+   width: 620px;
+   height: 600px;
+    opacity: 0.8;
+    margin-left: 820px;
+    position: absolute;
+    top: 200px;
+
+}
+
+
+#mail1{
+    width: 50%;
+    height: 25px;
+    margin-left: 120px;
+}
+.started{
+    background-color: red;
+    color: white;
+    position: relative;
+    left:200px ;
+    height: 30px;
+    margin-top: 7px;
+    border: none;
+}
+
+#page2{
+background-color: black;
+margin-top: 10px;
+ 
+}
+.para4{
+padding: 50px 0px 0px 170px ;
+}
+#img1
+{
+    margin-left: 220px;
+}
+
+#page3{
+    background-color: black;
+}
+.para6{
+    padding: 50px 0px 0px 100px;
+}
+#page4{
+    background-color: black;
+}
+.para8{
+    padding: 50px 0px 0px 120px ;
+   
+}
+#page5{
+    background-color: black;
+}
+.para10{
+    padding: 50px 0px 0px 100px ;
+   
+}
+
+#page6{
+    background-color: black;
+    height: 700px;
+    position: relative;
+
+}
+.fre{
+    background-color: silver;
+    height:30px ;
+}
+.fre:hover,#last_button:hover,.started:hover,#sign_in:hover{
+    cursor: pointer;
+    border-radius: 5px;
+}
+.para12{
+    margin-left: 180px;
+    position: relative;
+    top: 50px;
+    
+}
+#mail2{
+    width: 30%;
+    height: 30px;
+    margin-left: 270px;
+    margin-top:50px ;
+}
+#last_button{
+    background-color: red;
+    color: white;
+    height: 30px;
+position: absolute;
+top: 550px;
+left: 450px;
+border: none;
+}
+h1{
+    margin: 40px 0px 0px 150px;
+    padding-top: 10px;
+}
+.frequent{
+    margin:30px 0px 30px 350px;
+}
+#page6one{
+    position: relative;
+    top: 40px;
+}
+#one,p{
+    color: white;
+}
+
+#page7{
+    background-color: black;
+    height: 400px;
+    position: relative;
+    margin-top: 40px;
+    padding: 40px 0px 0px 250px;
+    font-size: 20px;
+    
+}
+.para14{
+  margin-top: 15px;
+  font-size: medium;
+  color: silver;
+    
+}
+.para13{
+
+color: white;
+
+}
+ul{
+	list-style: none;
+}
+a{
+    text-decoration: none;
+    color: silver;
+    
+}
+li{
+    margin: 20px;
+}
+.foot1{
+ position: absolute;
+ top: 95px;
+}
+.foot2{
+    position: absolute;
+    top: 95px;
+    left: 520px;
+}
+.foot3{
+    position: absolute;
+    top: 95px;
+    left: 800px;    
+
+}
+#language2{
+    margin-top: 160px;
+    margin-left: 0px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.foot4{
+    color: white;
+    position: absolute;
+    top: 120px;
+    left:1180px;
+}
+.social-links a{
+    display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color:white;
+}
+.follow{
+    text-align: center;
+}
+
